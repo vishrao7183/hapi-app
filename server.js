@@ -14,7 +14,7 @@ const server = new Hapi.Server({
 await server.route(Routes());
 
 
-await server.register([Plugin,bplugin,auth])
+await server.register()
 
 
 await server.start();
